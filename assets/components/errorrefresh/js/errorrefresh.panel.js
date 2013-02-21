@@ -14,6 +14,7 @@ MODx.panel.ErrorRefreshLog = function(config) {
     MODx.panel.ErrorRefreshLog.superclass.constructor.call(this,config);
     this.setup();
 };
+console.log(MODx.panel.ErrorRefreshLog, MODx.panel.ErrorLog);
 Ext.extend(MODx.panel.ErrorRefreshLog, MODx.panel.ErrorLog,{
     update: function() {
         MODx.Ajax.request({
